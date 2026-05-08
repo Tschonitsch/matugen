@@ -1,0 +1,29 @@
+[config]
+reload_apps = true
+default_type = "dark"
+
+[cache]
+enabled = true
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty.conf'
+output_path = '~/.config/kitty/colors.conf'
+
+[templates.waybar]
+input_path =  '~/.config/matugen/templates/waybar.conf'
+output_path = '~/.config/waybar/colors.conf'
+
+[templates.superfile]
+input_path = '~/.config/matugen/templates/superfile.toml'
+output_path = '~/.config/superfile/theme/matugen.toml'
+post_hook = 'pkill -SIGUSR1 superfile || true'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland.conf'
+output_path = '~/.config/hypr/colors.conf'
+
+[templates.steam]
+input_path = '~/.config/matugen/templates/steam.css'
+output_path = '~/.local/share/Steam/millennium/themes/Steam/src/css/root.css'
+
+

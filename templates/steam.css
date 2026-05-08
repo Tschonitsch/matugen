@@ -1,0 +1,19 @@
+:root {
+    --st-accent-1: {{ colors.primary.default.red }}, {{ colors.primary.default.green }}, {{ colors.primary.default.blue }};
+    --st-accent-2: {{ colors.secondary.default.red }}, {{ colors.secondary.default.green }}, {{ colors.secondary.default.blue }};
+    --st-color-1: {{ colors.surface.default.red }}, {{ colors.surface.default.green }}, {{ colors.surface.default.blue }};
+    --st-color-2: {{ colors.surface_container.default.red }}, {{ colors.surface_container.default.green }}, {{ colors.surface_container.default.blue }};
+    --st-color-3: {{ colors.surface_container_low.default.red }}, {{ colors.surface_container_low.default.green }}, {{ colors.surface_container_low.default.blue }};
+    --st-color-4: {{ colors.surface_container_high.default.red }}, {{ colors.surface_container_high.default.green }}, {{ colors.surface_container_high.default.blue }};
+    --st-color-5: {{ colors.surface_variant.default.red }}, {{ colors.surface_variant.default.green }}, {{ colors.surface_variant.default.blue }};
+    --st-color-6: {{ colors.on_surface_variant.default.red }}, {{ colors.on_surface_variant.default.green }}, {{ colors.on_surface_variant.default.blue }};
+    --st-background: {{ colors.background.default.red }}, {{ colors.background.default.green }}, {{ colors.background.default.blue }};
+    --st-red: {{ colors.error.default.red }}, {{ colors.error.default.green }}, {{ colors.error.default.blue }};
+    --st-red-hover: {{ colors.error.default.red }}, {{ colors.error.default.green }}, {{ colors.error.default.blue }};
+    --st-green: {{ colors.primary.default.red }}, {{ colors.primary.default.green }}, {{ colors.primary.default.blue }};
+    --st-green-hover: {{ colors.primary.default.red }}, {{ colors.primary.default.green }}, {{ colors.primary.default.blue }};
+    --st-blue: {{ colors.tertiary.default.red }}, {{ colors.tertiary.default.green }}, {{ colors.tertiary.default.blue }};
+    --st-blue-hover: {{ colors.secondary.default.red }}, {{ colors.secondary.default.green }}, {{ colors.secondary.default.blue }};
+    --st-yellow: {{ colors.tertiary.default.red }}, {{ colors.tertiary.default.green }}, {{ colors.tertiary.default.blue }};
+    --st-yellow-hover: {{ colors.tertiary.default.red }}, {{ colors.tertiary.default.green }}, {{ colors.tertiary.default.blue }};
+}
