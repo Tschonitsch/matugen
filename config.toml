@@ -5,6 +5,7 @@ default_type = "dark"
 [cache]
 enabled = true
 
+
 [templates.kitty]
 input_path = '~/.config/matugen/templates/kitty.conf'
 output_path = '~/.config/kitty/colors.conf'
@@ -26,4 +27,11 @@ output_path = '~/.config/hypr/colors.conf'
 input_path = '~/.config/matugen/templates/steam.css'
 output_path = '~/.local/share/Steam/millennium/themes/Steam/src/css/root.css'
 
+[templates.neovim]
+input_path = '~/.config/matugen/templates/neovim.lua'
+output_path = '~/.config/nvim/generated.lua'
+post_hook = 'pkill -SIGUSR1 nvim || true'
 
+[templates.obsidian]
+input_path = '~/.config/matugen/templates/obsidian.css'
+output_path = '~/Documents/Obsidian Vault/.obsidian/themes/Matugen/theme.css'
