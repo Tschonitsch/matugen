@@ -1,3 +1,10 @@
+--     _   _            _   _ _            
+--    | \ | |          | | | (_)           
+--    |  \| | ___  ___ | | | |_ _ __ ___   
+--    | . ` |/ _ \/ _ \| | | | | '_ ` _ \  
+--    | |\  |  __/ (_) \ \_/ / | | | | | | 
+--    \_| \_/\___|\___/ \___/|_|_| |_| |_| 
+
 vim.api.nvim_set_hl(0, "Normal", { fg = "{{colors.on_surface.default.hex}}", bg = "{{colors.surface_dim.default.hex}}" })
 vim.api.nvim_set_hl(0, "Cursor", { bg = "{{colors.primary.default.hex}}" })
 vim.api.nvim_set_hl(0, "CursorLine", { bg = "{{colors.surface_container.default.hex}}" })
@@ -77,7 +84,6 @@ vim.api.nvim_set_hl(0, "TabLineSel", { fg = "{{colors.on_primary.default.hex}}",
 vim.api.nvim_set_hl(0, "TabLineFill", { bg = "{{colors.surface_dim.default.hex}}" })
 
 vim.api.nvim_set_hl(0, "NormalFloat", { fg = "{{colors.on_surface.default.hex}}", bg = "{{colors.surface_container.default.hex}}" })
-
 vim.api.nvim_set_hl(0, "WinSeparator", { fg = "{{colors.outline_variant.default.hex}}" })
 vim.api.nvim_set_hl(0, "VertSplit", { fg = "{{colors.outline_variant.default.hex}}" })
 

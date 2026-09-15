@@ -1,0 +1,4 @@
+RAM_L={{ colors.primary_container.default.hex }}
+RAM_R={{ colors.primary_container.default.hex }}
+GPU={{ colors.primary_container.default.hex }}
+MOTHERBOARD={{ colors.primary_container.default.hex }}
